@@ -12,7 +12,7 @@ public class ExerciseFile_Operator_Chapter2 {
 	    System.out.println(x % y);
 	    System.out.println(x - y);
 	    System.out.println("<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>");
-	    System.out.println(x++ +y);
+	    System.out.println(x++);
 	    System.out.println(x++ +y);
 	    System.out.println(--x);
 	    System.out.println(++x);
@@ -20,6 +20,8 @@ public class ExerciseFile_Operator_Chapter2 {
 	    System.out.println("<<<<<<<<<<<<<<<<<<<<<Asighnment>>>>>>>>>>>>>>>>>>>>>>>");
 	    
 	    int a = 10;
+	    
+	    
 	    a += 5;
 	    System.out.println(a);
 	    
@@ -30,7 +32,7 @@ public class ExerciseFile_Operator_Chapter2 {
 	    int p=2;
 	    int p1=-2;
 	    
-	    System.out.println(c=2<<2);//0010.......> 1000 //Sighned left shift
+	    System.out.println(c=2<<1);//0010.......> 1000 //Sighned left shift
 	    
 	    System.out.println(c=2<<1);//0010.......> 0100 //Sighned Left shift
 	    
