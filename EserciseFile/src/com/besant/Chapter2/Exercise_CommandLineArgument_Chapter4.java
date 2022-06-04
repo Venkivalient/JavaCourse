@@ -7,11 +7,11 @@ public class Exercise_CommandLineArgument_Chapter4 {
 		System.out.println("Your first argument is: "+args[0]); 
 		
 		int[] aray = new int[args.length];
-		
+		int sum=0;
 		for(int i=0;i<args.length;i++)  {
 			aray[i]=Integer. parseInt(args[i]);
-			System.out.println(aray[i]);  
+			sum+=aray[i];
+			}
+			System.out.println("Command line arrugment" +sum);  
 			}  
 	}
-
-}
